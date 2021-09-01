@@ -1,0 +1,59 @@
+#windowContainer, #windowBackground {
+    z-index : 1;
+    
+    position : fixed;
+    
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    
+    top    : 0px;
+    bottom : 0px;
+    left   : 0px;
+    right  : 0px;
+}
+
+#windowBackground {
+    background-color : rgba( 0.1, 0.1, 0.1, 0.3 );
+}
+
+#window {
+    z-index : 2;
+    
+    position : fixed;
+    
+    display            : grid;
+    grid-template-rows : 7% 93%;
+    
+    width  : 75%;
+    height : 75%;
+    
+    background-color : #FFFFFF;
+}
+
+#windowHead {
+    display         : flex;
+    align-items     : center;
+    justify-content : flex-end;
+    
+    background-color : #8EC63F;
+}
+
+#windowClose {
+    margin-right : 10px;
+    padding      : 5px 10px 5px 10px;
+    
+    font-weight : bold;
+    
+    cursor : pointer;
+}
+
+#windowClose:hover {
+    color : #545454;
+}
+
+#windowContent {
+    padding : 25px;
+    
+    overflow : auto;
+}

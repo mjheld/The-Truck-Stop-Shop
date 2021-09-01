@@ -1,0 +1,26 @@
+#navBtn {
+    display            : grid;
+    grid-template-rows : 95% 5%;
+    
+    border : 0.5px solid #1A1A1A;
+    
+    cursor : pointer;
+}
+
+#navBtnText {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+#barActive {
+    background-color : #8EC63F;
+}
+
+#barHover {
+    background-color : #CCCCCC;
+}
+
+#barInactive {
+    background-color : #FFFFFF;
+}

@@ -1,0 +1,16 @@
+#purchases {
+    position : absolute;
+    
+    padding : 25px;
+    
+    top    : 25px;
+    bottom : 25px;
+    left   : 25px;
+    right  : 25px;
+    
+    border : 0.5px solid #1A1A1A;
+    
+    background-color : #FFFFFF;
+    
+    overflow : auto;
+}

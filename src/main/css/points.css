@@ -1,0 +1,28 @@
+#points {
+    position : absolute;
+    
+    top    : 25px;
+    bottom : 25px;
+    left   : 25px;
+    right  : 25px;
+    
+    display            : grid;
+    grid-template-rows : 1fr 2fr;
+}
+
+#pointDisplay {
+    display     : flex;
+    align-items : center;
+    
+    font-size : 150px;
+}
+
+#pointHistory {
+    padding : 25px;
+    
+    background-color : #FFFFFF;
+    
+    border : 0.5px solid #1A1A1A;
+    
+    overflow : auto;
+}

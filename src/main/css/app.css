@@ -1,0 +1,60 @@
+html, body {
+    width  : 100%;
+    height : 100%;
+    
+    margin : 0px;
+}
+
+#app {
+    position : absolute;
+    
+    width  : 100%;
+    height : 100%;
+    
+    display            : grid;
+    grid-template-rows : 1fr 1fr 10fr;
+    
+    color : #1A1A1A;
+}
+
+#appHead {
+    display         : flex;
+    align-items     : center;
+    justify-content : space-between;
+    
+    background-color : #8EC63F;
+}
+
+#headTitle {
+    margin-left : 25px;
+    
+    font-size : xx-large;
+    
+    cursor : pointer;
+}
+
+#headSettings {
+    margin-right : 25px;
+    
+    font-size       : large;
+    text-decoration : underline;
+    
+    cursor : pointer;
+}
+
+#headSettings:hover {
+    color : #545454;
+}
+
+#appNav {
+    display               : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    
+    background-color : #FFFFFF;
+}
+
+#appContent {
+    position : relative;
+    
+    background-color : #F2F2F2;
+}
